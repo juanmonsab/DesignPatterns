@@ -2,9 +2,9 @@
 
 ## Sistema de Gestión de Restaurantes
 
-**Patrón Utilizado: Patrón Factory Method**
+**Patrón Utilizado: Patrón Template Method**
 
-**Propósito**: El patrón Factory Method se seleccionó para facilitar la creación de diferentes tipos de órdenes en un sistema de gestión de restaurantes. Permite que las subclases decidan qué tipo de pedido se debe crear, como órdenes de comida, bebida y postre, sin duplicar código.
+**Propósito**: El patrón Template Method se seleccionó para facilitar la creación de diferentes tipos de órdenes en un sistema de gestión de restaurantes. Permite que las subclases decidan qué tipo de pedido se debe crear, como órdenes de comida, bebida y postre, sin duplicar código.
 
 **Beneficios**:
 - Permite crear diferentes tipos de órdenes de manera flexible.
@@ -58,3 +58,13 @@
 **Beneficios**:
 - Facilita la incorporación de nuevos tipos de envíos y servicios.
 - Mejora la comprensión y mantenibilidad del código.
+
+## Diagramas de Clases 
+
+![Template-Decorate](Decorate-Template.jpg)
+
+![Command](Command.jpg)
+
+![Builder](Builder.jpg)
+
+![Bridge](Bridge.jpg)
